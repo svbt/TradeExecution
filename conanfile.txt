@@ -1,0 +1,7 @@
+[requires]
+pistache/0.4.25
+nlohmann_json/3.11.3
+
+[generators]
+CMakeToolchain
+CMakeDeps
