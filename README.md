@@ -33,3 +33,10 @@ panpaliamahen@Mahendras-MacBook-Air TradeExecution % curl -X POST -H "Content-Ty
 
 {"executed_price":180.5,"order_id":"1764608000093","quantity":10,"side":"BUY","symbol":"AAPL","timestamp":"1764608000"}%   
 ```
+
+### For Unknown Stock Symbol
+```
+panpaliamahen@Mahendras-MacBook-Air TradeExecution % curl -X POST -H "Content-Type: application/json" -d '{"symbol": "UNKNOWN", "side": "BUY", "quantity": 10}' http://localhost:9080/trade/market
+
+Symbol not found%  
+```

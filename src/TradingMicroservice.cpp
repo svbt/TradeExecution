@@ -56,4 +56,3 @@ void TradingMicroservice::handleTradeRequest(const Pistache::Rest::Request& requ
         response.send(Pistache::Http::Code::Internal_Server_Error, e.what());
     }
 }
-
